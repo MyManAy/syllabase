@@ -22,7 +22,8 @@ export default function Home() {
         <p style={{fontSize: '2vw', marginTop: '5vh', marginBottom: '20vh'}}>It's about time we know what we're signing up for</p>
 
         <div style={{ display: 'flex', alignItems: 'center'}}>
-          <button style={{cursor: 'pointer', borderRadius: '15px', marginRight: '5vw', padding: '8px 16px', fontSize: '2vw', width: '20vw', fontWeight: 'bold'}}>
+          <button style={{backgroundColor: '#2289e6', color: 'white', cursor: 'pointer', borderRadius: '15px', marginRight: '5vw', padding: '8px 16px', fontSize: '2vw', width: '20vw', fontWeight: 'bold'}}
+                  onClick={() => router.push('/addsyllabus')}>
             ADD SYLLABUS
           </button>
           <form style={{alignItems: 'center'}} onSubmit={handleSubmit}>
