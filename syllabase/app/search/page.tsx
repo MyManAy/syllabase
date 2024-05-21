@@ -31,24 +31,27 @@ const styles = {
   },
   header: {
     fontSize: '55px',
-    marginBottom: '30px',
+    marginTop: '5vh',
   },
   introText: {
     fontSize: '30px',
-    marginBottom: '30px',
+    marginTop: '2vh',
+    marginBottom: '10vh',
   },
   buttonContainer: {
     display: 'flex',
     flexDirection: 'column' as 'column',
     alignItems: 'center',
-    gap: '20px',
+    gap: '7.5vh',
     width: '100%',
   },
   button: {
     padding: '10px 20px',
     fontSize: '50px',
     cursor: 'pointer',
-    width: 'calc(100% - 40px)',
+    width: '70vw',
     margin: '0 20px',
+    borderRadius: '25px',
+    height: '15vh',
   },
 };
