@@ -22,7 +22,7 @@ export default function Home() {
         <p style={{fontSize: '2vw', marginTop: '5vh', marginBottom: '20vh'}}>It's about time we know what we're signing up for</p>
 
         <div style={{ display: 'flex', alignItems: 'center'}}>
-          <button style={{backgroundColor: '#2289e6', color: 'white', cursor: 'pointer', borderRadius: '15px', marginRight: '5vw', padding: '8px 16px', fontSize: '2vw', width: '20vw', fontWeight: 'bold'}}
+          <button style={{backgroundColor: '#2289e6', color: 'white', cursor: 'pointer', borderRadius: '15px', marginRight: '5vw', padding: '8px 16px', fontSize: '2vw', width: '20vw', height: '10vh', fontWeight: 'bold'}}
                   onClick={() => router.push('/addsyllabus')}>
             ADD SYLLABUS
           </button>
@@ -32,7 +32,7 @@ export default function Home() {
               value={query}
               onChange={(e) => setQuery(e.target.value)}
               placeholder="Enter Class Code"
-              style={{ borderRadius: '15px', padding: '8px', fontSize: '2vw', textAlign: 'center', width: '20vw'}}
+              style={{ borderRadius: '15px', padding: '8px', fontSize: '2vw', textAlign: 'center', width: '20vw', height: '10vh'}}
             />
           </form>
         </div>
