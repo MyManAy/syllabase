@@ -24,9 +24,9 @@ export default function Home() {
           placeholder="Enter your search query"
           style={{ padding: '8px', fontSize: '16px' }}
         />
-        <button type="submit" style={{ marginLeft: '8px', padding: '8px 16px', fontSize: '16px' }}>
+        {/* <button type="submit" style={{ marginLeft: '8px', padding: '8px 16px', fontSize: '16px' }}>
           Submit
-        </button>
+        </button> */}
       </form>
     </div>
   );
