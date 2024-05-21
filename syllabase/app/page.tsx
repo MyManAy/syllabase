@@ -15,7 +15,7 @@ export default function Home() {
   };
 
   return (
-    <main>
+    <main style={{display: 'flex', justifyContent: 'center', alignItems: 'center', flexDirection: 'column'}}>
       <div style={{ marginTop: '15vh', display: 'flex', justifyContent: 'top', alignItems: 'center', height: '100vh', flexDirection: 'column' }}>
         <h1 style={{fontSize: '4.5vw'}}>Welcome to Syllabase</h1>
 
@@ -37,10 +37,10 @@ export default function Home() {
         </div>
       </div>
 
-      <div style={{gap: '1vh', display: 'flex', justifyContent: 'top', alignItems: 'center', height: '100vh', flexDirection: 'column', width: '30vw' }}>
-        <h1>About Us</h1>
-        <p>This project is led by Computer Science students studying at the University of Minnesota - Twin Cities. We are in our Beta Phase right now, so we prioritized Computer Science courses (CSCI xxxx) at UMN just for Fall 2024. For the spring, we will generalize this to all courses at UMN and maybe even expand to other universities!</p>
-        <p>Please give us feedback / contact us at thiru063@umn.edu</p>
+      <div style={{marginTop: '-30vh', gap: '5vh', display: 'flex', justifyContent: 'center', alignItems: 'flex-start', height: '100vh', flexDirection: 'column', width: '30vw' }}>
+        <h1 style={{fontSize: '5vh'}}>About Us</h1>
+        <p style={{fontSize: '2vh'}}>This project is led by Computer Science students studying at the University of Minnesota - Twin Cities. We are in our Beta Phase right now, so we prioritized Computer Science courses (CSCI xxxx) at UMN just for Fall 2024. For the spring, we will generalize this to all courses at UMN and maybe even expand to other universities!</p>
+        <p style={{fontSize: '2vh'}}>Please give us feedback / contact us at thiru063@umn.edu</p>
       </div>
 
     </main>
