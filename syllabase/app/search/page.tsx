@@ -22,7 +22,7 @@ export default function Search() {
 const styles = {
   container: {
     display: 'flex',
-    flexDirection: 'column',
+    flexDirection: 'column' as 'column',
     alignItems: 'center',
     justifyContent: 'flex-start',
     height: '100vh',
