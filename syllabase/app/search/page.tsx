@@ -53,5 +53,7 @@ const styles = {
     margin: '0 20px',
     borderRadius: '25px',
     height: '15vh',
+    color: 'black',
+    fontWeight: 'bold',
   },
 };
